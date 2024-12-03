@@ -3,18 +3,49 @@
 =======
 # movie_application
 
-A new Flutter project.
+page 1 
+Splash screen 
 
-## Getting Started
+![image](https://github.com/user-attachments/assets/ffe4a06f-0041-4b71-8b14-e709f7b39878)
 
-This project is a starting point for a Flutter application.
+page 2
+login 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image](https://github.com/user-attachments/assets/19a04488-2186-49e7-a67f-266baa58dc8b)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> b9e3df5 (pertama)
+
+page 3 
+homepage
+
+
+![image](https://github.com/user-attachments/assets/599bc8ef-df91-4029-95f1-1832ee029555)
+
+
+page 4 
+booking 
+
+
+![image](https://github.com/user-attachments/assets/60a57580-265c-47c7-89c9-cbedb9a37871)
+
+
+page 5
+movie
+
+
+![image](https://github.com/user-attachments/assets/aecfcb76-70dd-4d54-b88c-50f894ad280d)
+
+
+page 6
+cinema
+
+
+![image](https://github.com/user-attachments/assets/7448e304-dda8-49a9-b0e2-cbdc3871ed5d)
+
+
+
+
+
+
+
+
