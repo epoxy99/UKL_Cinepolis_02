@@ -19,8 +19,8 @@ class _UpperhomeState extends State<Upperhome> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Padding(
-          padding: const EdgeInsets.only(left: 20),
+        const Padding(
+          padding: EdgeInsets.only(left: 20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -66,8 +66,8 @@ class _UpperhomeState extends State<Upperhome> {
             viewportFraction: 0.8,
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.all(13),
+        const Padding(
+          padding: EdgeInsets.all(13),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

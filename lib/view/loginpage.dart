@@ -29,7 +29,7 @@ class _LoginPageState extends State<Loginpage> {
               ),
             ),
             // Teks Pengenalan
-            Padding(
+            const Padding(
               padding: const EdgeInsets.only(left: 20, right: 20),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -116,7 +116,7 @@ class _LoginPageState extends State<Loginpage> {
                       ],
                     ),
                   ),
-                  Padding(
+                  const Padding(
                     padding: const EdgeInsets.only(bottom: 20),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -158,7 +158,7 @@ class _LoginPageState extends State<Loginpage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
+                  const Text(
                     'Belum punya akun?',
                     style: TextStyle(
                       fontSize: 16,
@@ -170,7 +170,7 @@ class _LoginPageState extends State<Loginpage> {
                     onTap: () {
                       Navigator.pushNamed(context, '/register');
                     },
-                    child: Text(
+                    child: const Text(
                       'Daftar di sini',
                       style: TextStyle(
                         fontSize: 16,

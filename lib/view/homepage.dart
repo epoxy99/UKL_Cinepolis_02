@@ -32,7 +32,7 @@ class _HomepageState extends State<Homepage> {
                     color: Colors.black,
                   ),
                 ),
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Icon(Icons.location_on_outlined),
@@ -43,17 +43,17 @@ class _HomepageState extends State<Homepage> {
                     Icon(Icons.keyboard_arrow_down_sharp)
                   ],
                 )),
-            Row(
+            const Row(
               children: [
-                Icon(Icons.favorite_border),
-                Icon(Icons.notifications),
-                Icon(Icons.person)
+                Icon(Icons.favorite_border,size: 35,),
+                Icon(Icons.notifications,size: 35,),
+                Icon(Icons.person,size: 35,)
               ],
             ),
           ],
         ),
       ),
-      body: SingleChildScrollView(
+      body: const SingleChildScrollView(
         child: Column(
           children: [
             Upperhome(),

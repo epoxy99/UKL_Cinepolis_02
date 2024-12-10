@@ -14,11 +14,12 @@ class _BookingpageState extends State<Bookingpage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text(
+        backgroundColor: Colors.white,
+        title:const Text(
           'My Booking',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
-        actions: [
+        actions: const [
           Icon(
             Icons.timer_sharp,
             size: 30,
@@ -30,7 +31,7 @@ class _BookingpageState extends State<Bookingpage> {
       ),
       body: Column(
         children: [
-          Padding(
+          const Padding(
             padding: const EdgeInsets.only(left: 20),
             child: Row(
               children: [
@@ -41,8 +42,8 @@ class _BookingpageState extends State<Bookingpage> {
           Stack(
             children: [
               Container(
-                  margin: EdgeInsets.all(20),
-                  padding: EdgeInsets.only(left: 10, top: 10, bottom: 10),
+                  margin: const EdgeInsets.all(20),
+                  padding: const EdgeInsets.only(left: 10, top: 10, bottom: 10),
                   width: double.infinity,
                   height: 120,
                   decoration: BoxDecoration(
@@ -65,7 +66,7 @@ class _BookingpageState extends State<Bookingpage> {
                         width: 200,
                         height: 300,
                       ),
-                      Column(
+                      const Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
@@ -103,8 +104,8 @@ class _BookingpageState extends State<Bookingpage> {
           Stack(
             children: [
               Container(
-                  margin: EdgeInsets.all(20),
-                  padding: EdgeInsets.only(left: 10, top: 10, bottom: 10),
+                  margin:const EdgeInsets.all(20),
+                  padding: const EdgeInsets.only(left: 10, top: 10, bottom: 10),
                   width: double.infinity,
                   height: 120,
                   decoration: BoxDecoration(
@@ -127,7 +128,7 @@ class _BookingpageState extends State<Bookingpage> {
                         width: 200,
                         height: 300,
                       ),
-                      Column(
+                      const Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
@@ -151,6 +152,8 @@ class _BookingpageState extends State<Bookingpage> {
                               Icon(Icons.star, color: Colors.orange, size: 20),
                               Icon(Icons.star, color: Colors.orange, size: 20),
                               Icon(Icons.star, color: Colors.orange, size: 20),
+                              Icon(Icons.star_half,color:Colors.orange, size: 20),
+                            
                               Text('5.0')
                             ],
                           )

@@ -21,8 +21,8 @@ class _UpcomingwidgetState extends State<Upcomingwidget> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Padding(
-          padding: const EdgeInsets.all(13),
+        const Padding(
+          padding: EdgeInsets.all(13),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

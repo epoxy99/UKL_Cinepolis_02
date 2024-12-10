@@ -32,7 +32,7 @@ class _CinemapageState extends State<Moviepage> {
               ),
               child: DropdownButton<String>(
                 value: _selectedValue,
-                icon: Icon(Icons.arrow_drop_down, color: Colors.black),
+                icon: const Icon(Icons.arrow_drop_down, color: Colors.black),
                 iconSize: 24,
                 elevation: 16,
                 style: TextStyle(color: Colors.black),
@@ -48,8 +48,8 @@ class _CinemapageState extends State<Moviepage> {
                     value: value,
                     child: Row(
                       children: [
-                        Icon(Icons.location_on, size: 20, color: Colors.black),
-                        SizedBox(width: 8),
+                        const Icon(Icons.location_on, size: 20, color: Colors.black),
+                        const SizedBox(width: 8),
                         Text(value),
                       ],
                     ),
@@ -57,15 +57,15 @@ class _CinemapageState extends State<Moviepage> {
                 }).toList(),
               ),
             ),
-            SizedBox(width: 10),
-            Text('Cinemapage', style: TextStyle(color: Colors.white)),
+            const SizedBox(width: 10),
+            const Text('Cinemapage', style: TextStyle(color: Colors.white)),
           ],
         ),
       ),
       body: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Padding(
@@ -77,7 +77,7 @@ class _CinemapageState extends State<Moviepage> {
                     prefixIcon: const Icon(Icons.search, size: 30),
                     prefixIconColor: Colors.grey,
                     hintText: "Cinema / Movie",
-                    hintStyle: TextStyle(
+                    hintStyle: const TextStyle(
                       fontWeight: FontWeight.normal,
                       fontSize: 20,
                       color: Colors.black,
@@ -105,7 +105,7 @@ class _CinemapageState extends State<Moviepage> {
               children: [
                 Container(
                   width: 180,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     border: Border(
                       bottom: BorderSide(
                         color: Colors.blue, // Warna border
@@ -122,11 +122,11 @@ class _CinemapageState extends State<Moviepage> {
                       elevation: 0,
                       backgroundColor: Colors.white,
                       foregroundColor: Colors.blue,
-                      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 5,
                 ),
                 Container(
@@ -166,7 +166,7 @@ class _CinemapageState extends State<Moviepage> {
                         height: 260, // Tambahkan tinggi
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             image: AssetImage(
                                 'assets/images/film 2.jpg'), // Perbaikan path
                             fit: BoxFit.cover, // Gambar memenuhi container
@@ -174,7 +174,7 @@ class _CinemapageState extends State<Moviepage> {
                         ),
                       ),
                     ),
-                    Text('Siksa Neraka',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
+                    const Text('Siksa Neraka',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
                   SizedBox(height: 20,),
                    SizedBox(
                       width: 130,
@@ -188,7 +188,7 @@ class _CinemapageState extends State<Moviepage> {
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
-                        child:  Text(
+                        child:  const Text(
                           'buy now',
                           style: TextStyle(
                             fontSize: 16,
@@ -209,7 +209,7 @@ class _CinemapageState extends State<Moviepage> {
                         height: 260, // Tambahkan tinggi
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             image: AssetImage(
                                 'assets/images/film 3.jpg'), // Perbaikan path
                             fit: BoxFit.cover, // Gambar memenuhi container
@@ -217,8 +217,8 @@ class _CinemapageState extends State<Moviepage> {
                         ),
                       ),
                     ),
-                    Text('Lembayung',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
-                    SizedBox(height: 20,),
+                    const Text('Lembayung',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
+                    const SizedBox(height: 20,),
                    SizedBox(
                       width: 130,
                       height: 50,
@@ -231,7 +231,7 @@ class _CinemapageState extends State<Moviepage> {
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
-                        child:  Text(
+                        child:  const Text(
                           'buy now',
                           style: TextStyle(
                             fontSize: 16,
@@ -258,7 +258,7 @@ class _CinemapageState extends State<Moviepage> {
                         height: 260, // Tambahkan tinggi
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             image: AssetImage(
                                 'assets/images/film 4.jpg'), // Perbaikan path
                             fit: BoxFit.cover, // Gambar memenuhi container
@@ -266,7 +266,7 @@ class _CinemapageState extends State<Moviepage> {
                         ),
                       ),
                     ),
-                    Text('Dead Whispers',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
+                    const Text('Dead Whispers',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
                   SizedBox(height: 20,),
                    SizedBox(
                       width: 130,
@@ -280,7 +280,7 @@ class _CinemapageState extends State<Moviepage> {
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
-                        child:  Text(
+                        child:  const Text(
                           'buy now',
                           style: TextStyle(
                             fontSize: 16,
@@ -301,7 +301,7 @@ class _CinemapageState extends State<Moviepage> {
                         height: 260, // Tambahkan tinggi
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             image: AssetImage(
                                 'assets/images/film 5.jpg'), // Perbaikan path
                             fit: BoxFit.cover, // Gambar memenuhi container
@@ -309,7 +309,7 @@ class _CinemapageState extends State<Moviepage> {
                         ),
                       ),
                     ),
-                    Text('Pemukiman setan',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
+                    const Text('Pemukiman setan',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
                     SizedBox(height: 20,),
                    SizedBox(
                       width: 130,
@@ -323,7 +323,7 @@ class _CinemapageState extends State<Moviepage> {
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
-                        child:  Text(
+                        child:  const Text(
                           'buy now',
                           style: TextStyle(
                             fontSize: 16,

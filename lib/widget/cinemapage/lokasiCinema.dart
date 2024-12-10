@@ -8,8 +8,8 @@ class cinemaWidget extends StatelessWidget {
     return Column(
       children: [
         Container(
-          margin: EdgeInsets.only(top: 10,left: 10, right: 10),
-                  padding: EdgeInsets.only(left: 10, top: 10, bottom: 10),
+          margin: const EdgeInsets.only(top: 10,left: 10, right: 10),
+                  padding: const EdgeInsets.only(left: 10, top: 10, bottom: 10),
                   width: double.infinity,
                   height: 120,
                   decoration: BoxDecoration(
@@ -25,8 +25,8 @@ class cinemaWidget extends StatelessWidget {
                     ],
                   ),
                   child: Container(
-                    padding: EdgeInsets.only(left: 10),
-                    child: Column(
+                    padding: const EdgeInsets.only(left: 10),
+                    child: const Column(
                       children: [
                         Row(
                           children: [
